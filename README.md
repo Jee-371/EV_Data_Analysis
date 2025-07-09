@@ -3,7 +3,13 @@
 This project presents a Tableau dashboard designed to analyze Electric Vehicle (EV) data in the United States. The dashboard provides insights into EV adoption patterns, vehicle types, manufacturer trends, and model-level distributions.
 
 ---
+## 🗂️ Dataset Source
 
+This dashboard is based on the **Electric Vehicle Population Data** from Kaggle:
+
+🔗 [Electric Vehicle Population Data on Kaggle](https://www.kaggle.com/datasets/ratikkakkar/electric-vehicle-population-data)
+
+---
 ## 📊 Dashboard Overview
 
 The dashboard includes the following interactive sheets:
@@ -46,24 +52,25 @@ The dataset used in this dashboard contains various fields grouped into:
 - `Base MSRP`, `Electric_Vehicle_Population`
 - `Latitude (generated)`, `Longitude (generated)`
 
-*(See `images/dataset_fields.png` for full list)*
+## 📊 Dashboard
+![Dashboard Image](dashboard/EV_Dashboard.png)
 
 ---
 ## 📂 Repository Structure
 ```
-Tableau-EV-Dashboard/                     # Root directory of the project
+Tableau-EV-Dashboard/                      # Root directory of the project
+├── sheets/                                # Visual assets for documentation
+│   ├── Total Vehicles By Model Year.png   # The number of electric vehicles categorized by their model year to analyze adoption trends over time.
+│   └── Total Vehicles By State.png        # The state-wise distribution of electric vehicles to identify regional patterns in EV adoption.
+│   └── Top 10 Vehicles By Make            # Most popular EV manufacturers based on the number of registered vehicles.
+│   └── Total Vehicles By CAFV Eligibility # Count of vehicles eligible for Clean Alternative Fuel Vehicle (CAFV) incentives, reflecting policy impact.
+│   └── Total Vehicles By Model            # Total EV population by specific vehicle models to assess market penetration at the model level.
 │
-├── dataset/                              # Contains the dataset used for the dashboard
-│   └── electric_vehicle_data.csv         # Raw dataset exported from Tableau
+├── dashboard/                             # Tableau workbook files
+│   └── EV_Dashboard.png                   # Presentation Image of the tableau dashboard
+│   └── EV Data Analysis.twb               # Packaged Tableau workbook
 │
-├── sheets/                               # Visual assets for documentation
-│   ├── dataset_fields.png                # Screenshot of all dataset fields
-│   └── dashboard_preview.png             # Final Tableau dashboard screenshot (optional)
-│
-├── dashboard/                            # Tableau workbook files
-│   └── EV_Dashboard.twbx                 # Packaged Tableau workbook
-│
-├── README.md                             # Project documentation and usage guide
-├── .gitignore                            # Files and folders to be ignored by Git
-└── LICENSE                               # License information for the repository
+├── README.md                              # Project documentation and usage guide
+├── .gitignore                             # Files and folders to be ignored by Git
+└── LICENSE                                # License information for the repository
 ```
