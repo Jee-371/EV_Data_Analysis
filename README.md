@@ -62,9 +62,9 @@ Tableau-EV-Dashboard/                      # Root directory of the project
 ├── sheets/                                # Visual assets for documentation
 │   ├── Total Vehicles By Model Year.png   # The number of electric vehicles categorized by their model year to analyze adoption trends over time.
 │   └── Total Vehicles By State.png        # The state-wise distribution of electric vehicles to identify regional patterns in EV adoption.
-│   └── Top 10 Vehicles By Make            # Most popular EV manufacturers based on the number of registered vehicles.
+│   └── Top 10 Vehicles By Make.png        # Most popular EV manufacturers based on the number of registered vehicles.
 │   └── Total Vehicles By CAFV Eligibility # Count of vehicles eligible for Clean Alternative Fuel Vehicle (CAFV) incentives, reflecting policy impact.
-│   └── Total Vehicles By Model            # Total EV population by specific vehicle models to assess market penetration at the model level.
+│   └── Total Vehicles By Model.png        # Total EV population by specific vehicle models to assess market penetration at the model level.
 │
 ├── dashboard/                             # Tableau workbook files
 │   └── EV_Dashboard.png                   # Presentation Image of the tableau dashboard
